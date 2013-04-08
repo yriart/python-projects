@@ -62,16 +62,9 @@ def score_calculator(count, wrong_answers):
         print "Here are the ones you got wrong: "
         for item in wrong_answers:
             print item[0]
-        #offer to start playing again but only with the wrong answers
-        #also offer to play through from start, not with only wrong answers
         
     elif score==total_answers:
         print "Congrats, you got a perfect score!"
-        #reponse=raw_input("Want to go again? [y] [n] ")
-        #if response=="y":
-            #finish the function and restart it - but don't start it again inside itself
-        #elif response=="n":
-            #print "Goodbye!"
 
 def quiz_mode(flashcards_random):
     count=0
