@@ -1,0 +1,42 @@
+rmdir:remove directory
+apropos:find an appropriate manual page
+chown:change ownership
+mkdir:make directory
+less:page through a file
+xargs:execute arguments
+cat:print the whole file
+cd:change directory
+exit:exit the shell
+env:view your environment
+pwd:print working directory
+man:view manual page for a command
+sudo:excute command as super-user with root access - DANGER
+chmod:change permission modifiers
+echo:print whatever you type after it
+export:export/set a new environment variable
+grep:find things inside files - ("options","pattern","location")
+hostname:my computer's network name
+popd:pop directory - remove from bookmarked directories
+pushd:push directory - bookmark a directory or go to the last bookmarked directory
+touch:create a blank file
+find:find a file
+mv:move a file or directory
+ls:list directory
+cp:copy a file or directory
+>:take output of command on left, write it to the file on the right
+|:pipe - takes output from command on left and pipes it to the command on the right
+*:wildcard
+<:takes and sends contents of file on the right to the program/command on the left
+>>:takes output of the command on the left, appends it to the file on the right
+grep -A:search that prints matched line and the nth line after it
+grep -B:search that prints matched line and the nth line before it
+grep -C:search that prints nth line before, matched line, and nth line after
+grep -v:inverted search - find what does NOT patch the pattern
+grep -i:search that is case insensitive
+grep -l:search filenames, not file contents
+grep -r:recursively search through all files in current dir and subdirs
+grep -c:search and count the number of matches
+grep -w:search with full word match - not substrings
+grep -e:search and match ALL the given patterns
+grep -o:search that returns only the matched string, not the whole line it's on
+grep -n:search that returns line number of matches

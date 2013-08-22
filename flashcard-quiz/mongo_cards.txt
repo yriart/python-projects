@@ -1,0 +1,8 @@
+mongo:start mongo/connect to a mongod
+db:report the name of the current database
+show dbs:display the list of databases
+use mydb:switch to a database named "mydb"
+db.testData.insert(j):insert a document called j into the testData collection
+show collections:display the list of collections
+db.testData.find():display all documents within the testData collection
+it:after querying a collection, return the rest of the results in the cursor object

@@ -1,0 +1,12 @@
+grep -A:print matched line and the nth line after it
+grep -B:print matched line and the nth line before it
+grep -C:print nth line before, matched line, and nth line after
+grep -v:inverted search - find what does NOT patch the pattern
+grep -i:case insensitive
+grep -l:search filenames, not file contents
+grep -r:recursively search through all files in current dir and subdirs
+grep -c:count the number of matches
+grep -w:full word match - not substrings
+grep -e:match ALL the given patterns
+grep -o:return only the matched string, not the whole line it's on
+grep -n:return line number of matches
