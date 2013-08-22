@@ -1,4 +1,4 @@
-python-stuff
+python-projects
 ============
 
 practice python projects
