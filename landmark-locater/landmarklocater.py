@@ -1,6 +1,6 @@
 #def class Landmark(Object):
     #GPS coordinate of place, name, description, builtdate, image
-    
+
     #class var: GPS coordinate (set to input) <- is this necessary? probably not
     #class method 1: prettyprint place, name, description, builtdate, image
     #class method 2: pass sexagesimal coordinates of landmark to convert_to_decimal, store returned value as property on landmark instance
@@ -34,6 +34,15 @@ def convert_to_decimal(sexagesimal):
     # check if data is in the correct format to be interpreted, give error if not (using regex?)
     # regex interpretation of sexagesimal
     # mathematical conversion
+
+
+    """ alex notes
+    if you want to convert '123' --> 123, do:   int('123')  '123.123' --> 123.123 do: float('123.123.')
+
+    '44_44_55'.split('_')
+    import re
+    re.match(r'\d{2}_\d{2}_\d{2}\.\d{2}_[NWES]', sexagesimal)
+    """
     pass
 
 def sort_by_distance(*args):
@@ -41,7 +50,7 @@ def sort_by_distance(*args):
     # for each loop them to calculate_distance
     pass
 
-        
+
 
 empirestatebuilding = Landmark("Empire State Building", "40_44_54.36_N", "73_59_08.36_W", "The Empire State Building is very tall.", 1931, "Image here")
 brooklynbridge = Landmark("Brooklyn Bridge", "40.70569_N", "73.99639_W", "The Brooklyn Bridge connects Manhattan to Brooklyn and sucks to bike on.", 1883, "Image here")

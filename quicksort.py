@@ -2,8 +2,8 @@ def quicksort(unsorted_list):
     if len(unsorted_list)==0:
         return unsorted_list
     midpoint = unsorted_list[0]
-    less = quicksort([item for item in unsorted_list[1::] if item <= midpoint])
-    more = quicksort([item for item in unsorted_list[1::] if item > midpoint])
+    less = quicksort([item for item in unsorted_list[1:] if item <= midpoint])
+    more = quicksort([item for item in unsorted_list[1:] if item > midpoint])
 
     return less+[midpoint]+more
 
