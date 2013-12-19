@@ -27,3 +27,6 @@ def bubble_sort(ul):
 
 bubble_sort(my_list)
 print my_list
+
+# x,y = y,x
+# ul[i], ul[i+1] = ul[i+1], ul[i]
